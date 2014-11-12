@@ -5,7 +5,7 @@
 **/target/
 **/build/
 local.properties
-**/*.iml
+ViewPager3D-ViewPager3D.iml
 build.xml
 .classpath
 project.properties
