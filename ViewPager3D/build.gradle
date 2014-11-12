@@ -3,22 +3,16 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-       classpath 'com.android.tools.build:gradle:0.9.+'
+       classpath 'com.android.tools.build:gradle:0.14.1+'
     }
 }
-apply plugin: 'android-library'
+apply plugin: 'com.android.library'
 
-dependencies {
-    repositories {
-        mavenCentral()
-    }
-    compile 'com.android.support:support-v4:13.0.0'
-    compile 'com.nineoldandroids:library:2.4.0+'
-}
+
 
 android {
-    compileSdkVersion 19
-    buildToolsVersion "19.0.3"
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
 
     sourceSets {
         main {
@@ -43,4 +37,12 @@ android {
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
     }
+}
+
+dependencies {
+    repositories {
+        mavenCentral()
+    }
+    compile 'com.android.support:support-v4:13.0.0'
+    compile 'com.nineoldandroids:library:2.4.0+'
 }
