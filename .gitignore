@@ -5,7 +5,7 @@
 **/target/
 **/build/
 local.properties
-*.iml
+**/*.iml
 build.xml
 .classpath
 project.properties
