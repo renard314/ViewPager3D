@@ -1,9 +1,9 @@
 
 # ViewPager 3D
 
-![Screenshot 1](https://github.com/inovex/ViewPager3D/raw/master/screenshot1.png)
-![Screenshot 1](https://github.com/inovex/ViewPager3D/raw/master/screenshot2.png)
-![Screenshot 1](https://github.com/inovex/ViewPager3D/raw/master/screenshot3.png)
+![Screenshot 1](https://github.com/inovex/ViewPager3D/raw/master/ViewPager3D/screenshot1.png)
+![Screenshot 1](https://github.com/inovex/ViewPager3D/raw/master/ViewPager3D/screenshot2.png)
+![Screenshot 1](https://github.com/inovex/ViewPager3D/raw/master/ViewPager3D/screenshot3.png)
 
 This project aims to provide a reusable ViewPager widget for Android. It is based on the ViewPager class from Androids V4 compatibility package. Because of that android-support-v4.jar needs to be included in the build path.
 
